@@ -1,0 +1,36 @@
+---
+title: "NFMS Trawl Survey"
+format:
+  html: 
+    page-layout: full
+    toc: true
+    embed-resources: false
+    grid: 
+      body-width: 1100px
+---
+
+```{r}
+#| label: embed
+#| message: false
+#| echo: false
+#| warning: false
+library(bslib)
+
+card(
+  full_screen = TRUE,
+  height = "600px",  # Adjust height as needed
+  fill = TRUE,       # This makes the card fill its container
+  # card_header("NMFS Trawl Survey"),
+  card_body(
+    class = "p-0",   # Remove padding to maximize space
+    htmltools::tags$iframe(
+      src = "https://5qflbi-carly-lovas.shinyapps.io/nmfs_species_dist/",
+      width = "100%", 
+      height = "100%",
+      style = "border: none; width: 100%; min-height: 500px;",
+      frameborder = "0"
+    )
+  )
+)
+```
+

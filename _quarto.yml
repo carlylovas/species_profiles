@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: _output
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    embed-resources: false
+    
+website:
+  title: "Species profiles"
+  navbar:
+    left:
+      - href: home.qmd
+      - app.qmd

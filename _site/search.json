@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Marine Species Explorer",
+    "section": "",
+    "text": "```laosqfdhwmswb #| standalone: true #| components: [viewer] #| viewerHeight: 800"
+  },
+  {
+    "objectID": "about.html#data-path",
+    "href": "about.html#data-path",
+    "title": "Marine Species Explorer",
+    "section": "Data path",
+    "text": "Data path\nclean_survey &lt;- readRDS(url(“https://github.com/carlylovas/nmfs_species_profiles/raw/main/data/clean_survey.rds”))"
+  },
+  {
+    "objectID": "about.html#contains-species-caught-in-5-tows-per-year-and-present-in-both-seasons-80-of-the-years-of-the-survey",
+    "href": "about.html#contains-species-caught-in-5-tows-per-year-and-present-in-both-seasons-80-of-the-years-of-the-survey",
+    "title": "Marine Species Explorer",
+    "section": "Contains species caught in >5 tows per year, and present in both seasons >80% of the years of the survey",
+    "text": "Contains species caught in &gt;5 tows per year, and present in both seasons &gt;80% of the years of the survey"
+  },
+  {
+    "objectID": "about.html#does-not-include-strata-needed-to-compute-stratified-abundances",
+    "href": "about.html#does-not-include-strata-needed-to-compute-stratified-abundances",
+    "title": "Marine Species Explorer",
+    "section": "Does not include strata needed to compute stratified abundances",
+    "text": "Does not include strata needed to compute stratified abundances"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "species_profiles_app",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]
