@@ -12,5 +12,4 @@ website:
   title: "Species profiles"
   navbar:
     left:
-      - href: home.qmd
       - app.qmd
